@@ -1,5 +1,5 @@
-# CV Template for XeLaTeX
-I created a custom curriculum vitae class file (.cls). Look at the comments in cv-roald-example.tex to understand how it works. 
+# CV made from compilation of different templates
+Using `cv-roald-example` and `fancy-cv`, this Tex document is a modern layout which provides a good platform for presenting resume information 
 
-# Screenshot of cv-roald-example.pdf
-![example](https://github.com/Roald87/xelatex-cv-roald/blob/master/cv-roald-example.png)
+# Current CV:
+![CV](https://github.com/suzyng83209/Resume/blob/master/cv.pdf)
