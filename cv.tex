@@ -1,0 +1,121 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\addbibresource{bibliography.bib}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\graphicspath{ {icons/} }
+
+\begin{document}
+\header{Chuqian}{Li}
+       {Full stack web developer}
+
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \supersection{Contact}
+  \href{tel:12269729916}{(226) 972 9916 \includegraphics[scale=0.02]{phone-512.png}}
+  \href{mailto:c425li@edu.uwaterloo.ca}{c425li@uwaterloo.ca\includegraphics[scale=0.04]{email-icon.png}}
+  \href{https://www.facebook.com/chuqian.susan.li}{chuqian.susan.li \includegraphics[scale=0.01]{fbroundicon.png}}
+  \href{https://www.linkedin.com/in/susancqli}{susancqli \includegraphics[scale=0.04]{linkedin-png-hd.png}}
+  \href{https://github.com/suzyng83209}{suzyng83209 \includegraphics[scale=0.02]{github-512.png}}
+  \
+  \
+  \supersection{Skills}
+  \section{Frontend}
+  JavaScript (ES5 \& ES6)
+  ReactJS, Redux, RxJS
+  CSS3, SCSS \& HTML5
+  \section{Backend}
+  Python, C++, Java, NodeJS
+  \section{Mobile}
+  React Native
+  Android Studio
+  \section{Database Tech}
+  Postgres, SQL
+  \section{Platform \& containerization}
+  Docker, AWS, Heroku
+  \section{VCS}
+  Git (Github, GitLab)
+  SVN
+\end{aside}
+
+\section{Experience}
+
+\begin{entrylist}
+	\entry
+	{01–04 2017}
+	{Robin Media, Los Angeles, CA}
+	{CO-OP/Internship}
+	{
+		\begin{itemize}[leftmargin=*]
+			\item Led front-end implementation of critical APIs such as Stripe and Spotify.
+			\item Created database migrations and expanded API with additional endpoints and analytics tracking.
+			\item Developed transaction process to take user preferences, charge them, and present preferences to user for future reference.
+			\item Developed global search feature that hot-loaded and "cleaned" results.
+			\item Consulted in business decisions about product roadmap.
+		\end{itemize}
+	}
+	\entry
+	{10–03 2016}
+	{Beyond - JA, Calgary, AB}
+	{Youth Entreprenuership Competition}
+	{
+		\begin{itemize}[leftmargin=*]
+			\item Drafted business plan, developed marketing strategy, chaired executive meetings, led sales events at venues, created and designed  prototype.
+			\item Top 3 for Company of the Year, Website of the Year, President of the Year.
+	\end{itemize}}
+\end{entrylist}
+
+\section{Projects}
+
+\begin{entrylist}
+	\entry
+	{05/27/2017}
+	{Markov Messenger}
+	{\href{https://github.com/suzyng83209/markov-messenger-bot}{github.com/suzyng83209/markov-messenger-bot}}
+	{\emph{Created at EngHack 2017} \\
+		A chatbot that generates a markov chain from scraping previous conversation data to simulate a proper conversation with context. Analyzes sentiment of messages and responds with facebook reacts. Integrated with a mobile interface for easy chatbot manipulation.}
+	\entry
+	{01/22/2017}
+	{Whose Face?}
+	{\href{https://github.com/suzyng83209/whosface}{github.com/suzyng83209/whosface}}
+	{\emph{Created at UofTHacksVI.} \\
+		A web app that uses Clarifai API to recognize the faces of three US politicians and compiles social media information and sentiment analysis on them.}
+	\entry
+	{01/29/2017}
+	{Health Hacking}
+	{\href{https://github.com/suzyng83209/DeltaHacks3}{github.com/suzyng83209/DeltaHacks3}}
+	{\emph{Created at DeltaHacks3.} \\
+		A mobile app that gamifies the boring process of meal tracking! Look up food and track consumption. Earn points and unlock badges by being healthy.}
+\end{entrylist}
+
+\section{Education}
+
+\begin{entrylist}
+	\entry
+	{2016-2021}
+	{Bachelor of Applied Science {\normalfont candidate in Electrical Engineering}}
+	{\\ University of Waterloo, Waterloo, ON, CAN}
+	{Expected to graduate: April 2021 \\
+		\emph{Awards:} Queen's Golden Jubilee Award, Premier's Citizenship Award, Hatch Entrance Scholarship, President's Scholarship of Distinction, Schulich Leader Nominee, Loran Scholar Nominee.}
+\end{entrylist}
+
+\section{Interests and interesting facts}
+
+Techstars Music 2017 Alumni! Passionate developer of Cool Stuff\texttrademark. Greatly interested in IoT, PWAs, and ML. Food enthusiast. Karaoke master. Fan of coding in hot tubs.
+
+%%% This piece of code has been commented by Karol Kozioł due to biblatex errors. 
+% 
+%\printbibsection{article}{article in peer-reviewed journal}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+%\begin{refsection}
+%  \nocite{*}
+%  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+%\printbibsection{misc}{other publications}
+%\printbibsection{report}{research reports}
+
+\end{document}
