@@ -2,4 +2,4 @@
 Using `cv-roald-example` and `fancy-cv`, this Tex document is a modern layout which provides a good platform for presenting resume information 
 
 # Current CV:
-![CV](https://github.com/Roald87/xelatex-cv-roald/blob/master/cv-roald-example.png)
+![CV](https://github.com/suzyng83209/Resume/blob/master/cv.pdf)
