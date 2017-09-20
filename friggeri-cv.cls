@@ -89,25 +89,24 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \RequirePackage{tikz}
 
 \newcommand{\rolefont}{%
-  \fontsize{14pt}{24pt}\selectfont%
+  \fontsize{10pt}{20pt}\selectfont%
   \thinfont%
   \color{white}%
 }
 
 \newcommand{\header}[3]{%
   \begin{tikzpicture}[remember picture,overlay]
-    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
+    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=3.6cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
-      \fontsize{40pt}{72pt}\color{header}%
+      \fontsize{32pt}{64pt}\color{header}%
       {\thinfont #1} \ {\bodyfont  #2}
     };
     \node [anchor=north] at (name.south) {%
-      \fontsize{14pt}{24pt}\color{header}%
+      \fontsize{10pt}{16pt}\color{header}%
       \thinfont #3%
     };
   \end{tikzpicture}
-  \vspace{2.5cm}
-  \vspace{-2\parskip}
+  \vspace{1.7cm}
 }
 
 
@@ -117,11 +116,10 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \RequirePackage{parskip}
 
 \renewcommand{\section}[1]{
-  \par\vspace{0.5\parskip}
+  \par\vspace{0.25\parskip}
   {%
     \Large\headingfont\color{headercolor} #1%
   }
-  \par\vspace{0.25\parskip}
 }
 
 \renewcommand{\subsection}[1]{
@@ -133,7 +131,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 }
 
 \newcommand{\supersection}[1]{
-	\par\vspace{\parskip}
+	\par\vspace{0.5\parskip}
 	{%
 	\Large\headingfont\color{headercolor} #1%
 	}
@@ -149,17 +147,17 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 
 \setlength{\tabcolsep}{0pt}
 \newenvironment{entrylist}{%
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l}
 }{%
   \end{tabular*}
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
-\newcommand{\entry}[4]{%
-  #1&\parbox[t]{11.8cm}{%
-    \textbf{#2}%
+\newcommand{\entry}[3]{%
+  \parbox[t][][t]{14.8cm}{%
+    \textbf{#1}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
-    #4\vspace{\parsep}%
+    {\footnotesize\addfontfeature{Color=lightgray} #2}\vspace{0.5\parsep}%
+    #3\vspace{1.5\parsep}%
   }\\}
 
 
@@ -175,7 +173,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\large\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{3.8}(1.5, 4.33)
+  \begin{textblock}{4.5}(0.75, 4)
   \begin{flushright}
   \obeycr
 }{%
