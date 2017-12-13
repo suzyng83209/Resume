@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6300 64-bit) (preloaded format=xelatex 2017.5.8)  12 DEC 2017 09:14
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6300 64-bit) (preloaded format=xelatex 2017.5.8)  12 DEC 2017 21:55
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -1170,11 +1170,11 @@ Package biblatex Info: Reference segment=0 on input line 8.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(165.02606pt, 406.58981pt, 42.67912pt)
-* v-part:(T,H,B)=(56.9055pt, 695.38536pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 702.49855pt, 35.56593pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=406.58981pt
-* \textheight=695.38536pt
+* \textheight=702.49855pt
 * \oddsidemargin=92.75607pt
 * \evensidemargin=92.75607pt
 * \topmargin=-15.36449pt
@@ -1348,47 +1348,47 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 58.
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
 
  []
 
 
-Overfull \hbox (20.20154pt too wide) in alignment at lines 58--89
+Overfull \hbox (20.20154pt too wide) in alignment at lines 58--90
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--90
+Underfull \hbox (badness 10000) in paragraph at lines 58--91
 
  []
 
 
-Overfull \hbox (20.20154pt too wide) in alignment at lines 93--110
+Overfull \hbox (20.20154pt too wide) in alignment at lines 94--111
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--111
+Underfull \hbox (badness 10000) in paragraph at lines 94--112
 
  []
 
 
-Overfull \hbox (20.20154pt too wide) in alignment at lines 114--119
+Overfull \hbox (20.20154pt too wide) in alignment at lines 115--120
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--120
+Underfull \hbox (badness 10000) in paragraph at lines 115--121
 
  []
 
@@ -1399,11 +1399,11 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 135.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 135.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
  (cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 135.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 135.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 136.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 136.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
@@ -1411,7 +1411,7 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 Here is how much of TeX's memory you used:
  37718 strings out of 427841
  711358 string characters out of 3152545
- 1181103 words of memory out of 3000000
+ 1182104 words of memory out of 3000000
  41292 multiletter control sequences out of 15000+200000
  4240 words of font info for 45 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
