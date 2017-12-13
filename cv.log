@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6300 64-bit) (preloaded format=xelatex 2017.5.8)  12 DEC 2017 21:55
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6300 64-bit) (preloaded format=xelatex 2017.5.8)  12 DEC 2017 23:19
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -1117,39 +1117,47 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box56
 \enitdp@description=\count358
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\fontawesome\fontawesome.sty"
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fontawesome\fontawesomesymbols-generic.
+tex")
+\g__fontspec_family_FontAwesome_int=\count359
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\fontawesome\fontawesomesymbols-xeluatex
+.tex"))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
 File: english.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count359
-\@quotereset=\count360
- (cv.aux)
+\@quotelevel=\count360
+\@quotereset=\count361
+
+(cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-
-ABD: EveryShipout initializing macros
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+ ABD: EveryShipout initializing macros
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1159,8 +1167,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'cv.bbl' found.
  (cv.bbl)
-Package biblatex Info: Reference section=0 on input line 8.
-Package biblatex Info: Reference segment=0 on input line 8.
+Package biblatex Info: Reference section=0 on input line 9.
+Package biblatex Info: Reference segment=0 on input line 9.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1196,18 +1204,18 @@ Package biblatex Info: Reference segment=0 on input line 8.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring OFF on input line 8.
+Package hyperref Info: Link coloring OFF on input line 9.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count361
+\c@section@level=\count362
 )
-LaTeX Info: Redefining \ref on input line 8.
-LaTeX Info: Redefining \pageref on input line 8.
-LaTeX Info: Redefining \nameref on input line 8.
+LaTeX Info: Redefining \ref on input line 9.
+LaTeX Info: Redefining \pageref on input line 9.
+LaTeX Info: Redefining \nameref on input line 9.
 
 (cv.out) (cv.out)
 \@outlinefile=\write6
@@ -1221,24 +1229,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15   \supersection{Contact}
+l.16   \supersection{Contact}
                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-File: icons/phone-512.png Graphic file (type QTm)
-<use  "icons/phone-512.png" >
-File: icons/email-icon.png Graphic file (type QTm)
- <use  "icons/email-icon.png" >
-File: icons/mediumicon.png Graphic file (type QTm)
-
-<use  "icons/mediumicon.png" >
-File: icons/linkedin-png-hd.png Graphic file (type QTm)
- <use  "icons/linkedin-png-hd.png" >
-File: icons/github-512.png Graphic file (type QTm)
-
-<use  "icons/github-512.png" >
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1246,7 +1242,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22   \supersection{}
+l.23   \supersection{}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1259,7 +1255,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24   \supersection{}
+l.25   \supersection{}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1272,7 +1268,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26   \supersection{Skills}
+l.27   \supersection{Skills}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1285,7 +1281,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40   \supersection{}
+l.38   \supersection{}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1298,20 +1294,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42   \supersection{}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 ...persection{Interests \& Interesting Facts}
+l.40 ...persection{Interests \& Interesting Facts}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1324,8 +1307,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45   \begin{itemize}\raggedleft
-                                 
+l.41   \begin{description}\raggedleft
+                                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1337,58 +1320,130 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53   \end{itemize}
-                    
+l.46   \end{description}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ^^I\supersection{}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 ^^I\supersection{Awards}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 ^^I\begin{description}\raggedleft
+                                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 ^^I\end{description}
+                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 58.
+(Font)              <7> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 58.
+(Font)              <5> on input line 61.
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 
  []
 
 
-Overfull \hbox (20.20154pt too wide) in alignment at lines 58--90
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+
+ []
+
+
+Overfull \hbox (20.20154pt too wide) in alignment at lines 61--97
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--91
+Underfull \hbox (badness 10000) in paragraph at lines 61--98
 
  []
 
 
-Overfull \hbox (20.20154pt too wide) in alignment at lines 94--111
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--123
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
+
+ []
+
+
+Overfull \hbox (20.20154pt too wide) in alignment at lines 101--145
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--112
+Underfull \hbox (badness 10000) in paragraph at lines 101--146
 
  []
 
 
-Overfull \hbox (20.20154pt too wide) in alignment at lines 115--120
+Overfull \hbox (20.20154pt too wide) in alignment at lines 149--154
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--121
+Underfull \hbox (badness 10000) in paragraph at lines 149--155
 
  []
 
@@ -1399,21 +1454,21 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
  (cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 136.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 136.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 170.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37718 strings out of 427841
- 711358 string characters out of 3152545
- 1182104 words of memory out of 3000000
- 41292 multiletter control sequences out of 15000+200000
- 4240 words of font info for 45 fonts, out of 3000000 for 9000
+ 39191 strings out of 427841
+ 731059 string characters out of 3152545
+ 1201630 words of memory out of 3000000
+ 42758 multiletter control sequences out of 15000+200000
+ 4248 words of font info for 46 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  73i,9n,75p,10423b,3426s stack positions out of 5000i,500n,10000p,200000b,50000s
 

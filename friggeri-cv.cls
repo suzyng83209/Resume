@@ -120,7 +120,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   {%
     \Large\headingfont\color{headercolor} #1%
   }
- \par\vspace{0.25\parskip}
+ \par\vspace{0.5\parskip}
 }
 
 \renewcommand{\subsection}[1]{
@@ -157,7 +157,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \parbox[t][][t]{15cm}{%
     \textbf{#1}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #2}\\%
+    {\footnotesize\addfontfeature{Color=lightgray} #2}\\
     #3\vspace{2\parsep}%
   }\\}
 
@@ -174,7 +174,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\large\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{4.4}(0.7, 4)
+  \begin{textblock}{4.8}(0.5, 4)
   \begin{flushright}
   \obeycr
 }{%

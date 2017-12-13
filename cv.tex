@@ -3,6 +3,7 @@
 \addbibresource{bibliography.bib}
 \usepackage{enumitem}
 \usepackage{graphicx}
+\usepackage{fontawesome}
 \graphicspath{ {icons/} }
 
 \begin{document}
@@ -13,110 +14,143 @@
 % In the aside, each new line forces a line break
 \begin{aside}
   \supersection{Contact}
-  \href{tel:19292739691}{(929) 273 9691 \includegraphics[scale=0.02]{phone-512.png}}
-  \href{mailto:c425li@edu.uwaterloo.ca}{c425li@uwaterloo.ca\includegraphics[scale=0.04]{email-icon.png}}
-  \href{https://medium.com/@chuqiansusanli}{@chuqiansusanli \includegraphics[scale=0.02]{mediumicon.png}}
-  \href{https://www.linkedin.com/in/susancqli}{susancqli \includegraphics[scale=0.04]{linkedin-png-hd.png}}
-  \href{https://github.com/suzyng83209}{suzyng83209 \includegraphics[scale=0.02]{github-512.png}}
+  \href{tel:19292739691}{(929) 273 9691 \faPhone}
+  \href{mailto:chuqian.li@edu.uwaterloo.ca}{chuqian.li@uwaterloo.ca \faEnvelopeO}
+  \href{https://medium.com/@chuqiansusanli}{@chuqiansusanli \faMedium}
+  \href{https://github.com/suzyng83209}{suzyng83209 \faGithub}
+  \href{https://www.linkedin.com/in/susancqli}{susancqli \faLinkedin}
   \
   \supersection{}
   \
   \supersection{}
   \
   \supersection{Skills}
-  \textbf{Most to least proficient}
   \section{Languages}
-  JavaScript, CSS, \& HTML
+  JavaScript, CSS, HTML
   Java, Python, C++
-  \section{Tech}
+  \section{Frameworks}
   React, Redux, NodeJS, ReactNative, Android Studio
   \section{Database}
   Postgres, Firebase, MongoDB
   \section{DevOps}
   Docker, AWS EC2, Heroku
-  \section{VCS}
-  Git, SVN
-  \
-  \supersection{}
   \
   \supersection{}
   \
   \supersection{Interests \& Interesting Facts}
-  \begin{itemize}\raggedleft
-  	\item[] Techstars Music 2017 Alumni
-  	\item[] Passionate Developer
-  	\item[] Foodie
-  	\item[] Snowboarder
-  	\item[] Karaoke Master
-  	\item[] Medium Writer
-  	\item[] Fan of coding in hot tubs
-  \end{itemize}
+  \begin{description}\raggedleft
+  	\item Techstars Music 2017 Alumni
+  	\item Passionate Developer
+  	\item Foodie, Snowboarder, Karaoke Master
+  	\item Fan of coding in hot tubs
+  \end{description}
+	\
+	\supersection{}
+	\
+	\supersection{Awards}
+	\begin{description}\raggedleft
+		\item Queen's Golden Jubilee Award
+		\item Premier's Citizenship Award
+		\item Hatch Entrance Scholarship
+		\item President's Scholarship of Distinction
+	\end{description}
 \end{aside}
 
 \section{Experience}
 
 \begin{entrylist}
 	\entry
-	{Pippa, New York City, NY}
-	{CO-OP [CURRENT]}
+	{Full Stack Software Developer | \normalfont Pippa, New York City, NY}
+	{SEP 2017 - JAN 2017}
 	{
-		\begin{itemize}[topsep=0pt,leftmargin=*]
+		\begin{itemize}[leftmargin=*]
+			\vspace{-0.3cm}
 			\item Developed features in React/Redux including DNS-hosting service for client content with Lambda
-			\item Increased security with authorization \& type-checking middleware on server
+			\item Increased security with authorization \& type-checking middleware server-side
 			\item Created compressed Docker Image of multiple services \& auto-scaling with Swarm + AWS
-			\item Increased speed of web-scraping script by multiprocessing \& proxying from 24 hr to 14 hr
-			\item Reduced use of cloud storage \& spending by analysing similar request data up to 40\%  
+			\item Increased speed of web-scraping script by multiprocessing \& proxying; cut process time in half
+			\item Reduced use of cloud storage by 40\% by analysing \& replacing similar data\%  
 		\end{itemize}
 	}
 	\entry
-	{Robin Media, Los Angeles, CA}
-	{CO-OP [JAN 2017 - MAY 2017]}
+	{Full Stack Software Developer | \normalfont Robin Media, Los Angeles, CA}
+	{JAN 2017 - MAY 2017}
 	{
-		\begin{itemize}[topsep=0pt,leftmargin=*]
+		\begin{itemize}[leftmargin=*]
+			\vspace{-0.3cm}
 			\item Led front-end feature implementation in React/Redux with UI/UX
 			\item Expanded API in Java for analysis of user/product data \& feature implementation
-			\item Developed more efficient transaction process to reduce manual employee customer service time \& burden by 50\%
+			\item Developed more efficient transaction process to reduce manual customer service time by 50\%
 			\item Developed global search with querying algorithm for inclusive/exclusive tags with React/Redux
 		\end{itemize}
 	}
 	\entry
-	{Beyond - JA, Calgary, AB}
-	{Youth Entreprenuership Competition [SEP 2015 - MAR 2016]}
+	{President | \normalfont Beyond - JA, Calgary, AB}
+	{SEP 2015 - MAR 2016}
 	{
-		\begin{itemize}[topsep=0pt,leftmargin=*]
+		\begin{itemize}[leftmargin=*]
+			\vspace{-0.3cm}
 			\item Drafted business plan \& sales strategies, chaired meetings \& designed prototype
 			\item Top 3 for Company of the Year, Website of the Year, President of the Year.
-	\end{itemize}}
+		\end{itemize}
+	}
 \end{entrylist}
 
 \section{Projects}
 
 \begin{entrylist}
 	\entry
-	{Symposio | \href{http://symposio.stream}{\footnotesize Symposio.stream} \href{https://github.com/suzyng83209/symposio}{\footnotesize github.com/suzyng83209/symposio}}
+	{Symposio | \href{https://github.com/suzyng83209/symposio}{\faGithub} \ \ \href{http://symposiostream}{\faLink}}
 	{\vspace{0.5\parsep}Solo - [ONGOING]}
-	{Interview Application with recording, messaging, \& transcript generation. Streams are recorded locally \& merged with ffmpeg to produce high-quality interview recording. Written with NodeJS \& React using Mailgun API, Watson Developer Cloud API, AWS SDK, WebRTC, Socket.io, ffmpeg. Hosted with custom Docker Image \& AWS EC2 Linux AMI}
+	{
+		\begin{itemize}[leftmargin=*]
+			\vspace{-0.4cm}
+			\item Interview Application w/ real-time messaging, recording, \& transcript generation.
+			\item Streams recorded client-side \& merged w/ ffmpeg to produce HQ interview recording.
+			\item NodeJS, React w/ MailGun, Watson Developer Cloud, AWS, WebRTC, Socket.io, ffmpeg. \\ Custom Docker Image on EC2 Linux AMI  
+		\end{itemize}
+	}
 	\entry
-	{CyanoSleuth | \href{https://github.com/suzyng83209/cyanosleuth}{\footnotesize  github.com/suzyng83209/cyanosleuth}}
+	{CyanoSleuth | \href{https://github.com/suzyng83209/cyanosleuth}{\faGithub}}
 	{\vspace{0.5\parsep}Solo - [ONGOING]}
-	{A platform to analyze \& upload water quality data from a water testing kit \& for scientists to access \& analyze all crowd-sourced data. Written in React/Redux \& NodeJS using Google Maps API, Clarifai Image API, \& Firebase. Hosted with Heroku}
+	{
+		\begin{itemize}[leftmargin=*]
+			\vspace{-0.4cm}
+			\item Platform to analyze \& upload water quality data from associated water testing kit
+			\item Displays \& analyzes cumulative crowd-sourced data
+			\item React/Redux, NodeJS w/ Google Maps API, Clarifai Image AI, Firebase, Heroku
+		\end{itemize}
+	}
 	\entry
-	{Markov Messenger | \href{https://github.com/suzyng83209/markov-messenger-bot}{\footnotesize  github.com/suzyng83209/markov-messenger-bot}}
+	{Markov Messenger | \href{https://github.com/suzyng83209/markov-messenger-bot}{\faGithub}}
 	{\vspace{0.5\parsep}Created at EngHack 2017}
-	{A chatbot that generates a markov chain from scraping conversation data to simulate proper conversation with context. Analyzes sentiment of messages \& responds with appropriate Facebook reacts. Written in Python, ReactNative, NodeJS \& uses in-house semantic analysis.}
+	{
+		\begin{itemize}[leftmargin=*]
+			\vspace{-0.4cm}
+			\item Facebook chatbot that generates markov chain from scraping conversation data to simulate proper conversation in context
+			\item Runs custom sentiment analysis on incoming messages \& responds with appropriate message \& Facebook React.\
+			\item Python, ReactNative, NodeJS w/ Heroku \& custom semantic analysis algorithm
+		\end{itemize}
+	}
 	\entry
-	{Log(me); | \href{https://github.com/suzyng83209/htn2017}{\footnotesize github.com/suzyng83209/htn2017}}
+	{Log(me); | \href{https://github.com/suzyng83209/htn2017}{\faGithub}}
 	{\vspace{0.5\parsep}Created at Hack the North 2017}
-	{A smart journal that runs semantic analysis on user's daily logs with quantitative inputs \& local events to determine likelihood of stress or depression. NodeJS, Python, Firebase, Socket.io.}
+	{
+		\begin{itemize}[leftmargin=*]
+			\vspace{-0.4cm}
+			\item Smart Journal that runs semantic analysis on user's daily logs alongside quantitative inputs \& local events to determine likelihood of stress or depression w/ real-time messaging
+			\item React, NodeJS, Python w/ Firebase, Socket.io \& Heroku
+		\end{itemize}
+	}
 \end{entrylist}
 
 \section{Education}
 
 \begin{entrylist}
 	\entry
-	{University of Waterloo, Waterloo, ON, Canada \hfill{\normalfont SEP 2016 - APR 2021}}
-	{\\{\normalsize\normalfont Honors Bachelor of Applied Science Candidate in Computer Engineerings}}
-	{\emph{Awards:} Queen's Golden Jubilee Award, Premier's Citizenship Award, Hatch Entrance Scholarship, President's Scholarship of Distinction. \textbf{Cumulative GPA: 4.0 (90\%})}
+	{University of Waterloo, Waterloo, ON, Canada \hfill{\normalfont\footnotesize SEP 2016 - APR 2021}}
+	{\\{\normalsize\normalfont Honors Bachelor of Applied Science Candidate in Computer Engineering}}
+	{\textbf{Cumulative GPA: 4.0 (90\%})}
 \end{entrylist}
 
 %%% This piece of code has been commented by Karol Kozioł due to biblatex errors. 
