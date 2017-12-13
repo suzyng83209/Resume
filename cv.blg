@@ -1,5 +1,9 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: cv.aux
-I found no \citation commands---while reading file cv.aux
-I found no \bibdata command---while reading file cv.aux
-I found no \bibstyle command---while reading file cv.aux
-(There were 3 error messages)
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is 'cv.blg'
+[41] biber-darwin:303> INFO - === Wed Dec 13, 2017, 14:08:44
+[64] Biber.pm:359> INFO - Reading 'cv.bcf'
+[163] Biber.pm:835> INFO - Found 0 citekeys in bib section 0
+[170] Utils.pm:164> WARN - The file 'cv.bcf' does not contain any citations!
+[178] bbl.pm:608> INFO - Writing 'cv.bbl' with encoding 'UTF-8'
+[178] bbl.pm:712> INFO - Output to cv.bbl
+[179] Biber.pm:109> INFO - WARNINGS: 1
