@@ -11,4 +11,4 @@ Using `cv-roald-example` and `fancy-cv`, this Tex document is a modern layout wh
 3. Side Column? While side columns are a point of debate in many resumes across the internet, for the current state of my technical ability and experience, side columns offer the most clean and space-saving solution to quickly list off key skills and experiences.
 
 # Current CV:
-![CV](https://github.com/suzyng83209/Resume/blob/master/currentCV.png)
+![CV](https://github.com/suzyng83209/Resume/blob/master/cv.split/cv.1.pdf)
