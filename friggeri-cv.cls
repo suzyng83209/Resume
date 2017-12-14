@@ -96,7 +96,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 
 \newcommand{\header}[3]{%
   \begin{tikzpicture}[remember picture,overlay]
-    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=3.6cm] (box) at (current page.north){};
+    \node [rectangle, fill=fillheader, anchor=north, minimum width=1.1\paperwidth, minimum height=3.4cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
       \fontsize{32pt}{64pt}\color{header}%
       {\thinfont #1} \ {\bodyfont  #2}
@@ -172,9 +172,9 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
-    \par\vspace{\baselineskip}{\large\headingfont\color{headercolor} ##1}
+    \par\vspace{\baselineskip}{\large\headingfont\color{headercolor} ##1}\vspace{0.1cm}
   }
-  \begin{textblock}{4.8}(0.5, 4)
+  \begin{textblock}{4.8}(0.5, 3.9)
   \begin{flushright}
   \obeycr
 }{%
@@ -297,5 +297,5 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 % Other tweaks %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[left=5.8cm,top=2cm,right=1.5cm,bottom=1.25cm,nohead,nofoot]{geometry}
+\RequirePackage[left=6cm,top=1.9cm,right=2cm,bottom=1.25cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
