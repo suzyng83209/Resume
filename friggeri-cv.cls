@@ -94,19 +94,19 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \color{white}%
 }
 
-\newcommand{\header}[3]{%
+\newcommand{\header}[2]{%
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=1.1\paperwidth, minimum height=3.4cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
       \fontsize{32pt}{64pt}\color{header}%
-      {\thinfont #1} \ {\bodyfont  #2}
+      {\bodyfont  #1}
     };
     \node [anchor=north] at (name.south) {%
       \fontsize{10pt}{16pt}\color{header}%
-      \thinfont #3%
+      \thinfont #2%
     };
   \end{tikzpicture}
-  \vspace{1.7cm}
+  \vspace{1.6cm}
 }
 
 
@@ -174,7 +174,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\large\headingfont\color{headercolor} ##1}\vspace{0.1cm}
   }
-  \begin{textblock}{4.8}(0.5, 3.9)
+  \begin{textblock}{4.8}(0.5, 3.8)
   \begin{flushright}
   \obeycr
 }{%
