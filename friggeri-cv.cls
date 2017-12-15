@@ -24,7 +24,8 @@
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
-\definecolor{red}{HTML}{FB4485}
+\definecolor{red}{HTML}{e84242}
+\definecolor{pink}{HTML}{ff9292}
 \definecolor{blue}{HTML}{6CE0F1}
 
 \ifdefined\@cv@print
@@ -96,7 +97,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 
 \newcommand{\header}[2]{%
   \begin{tikzpicture}[remember picture,overlay]
-    \node [rectangle, fill=fillheader, anchor=north, minimum width=1.1\paperwidth, minimum height=3.4cm] (box) at (current page.north){};
+    \node [rectangle, fill=red, anchor=north, minimum width=1.1\paperwidth, minimum height=3.4cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
       \fontsize{32pt}{64pt}\color{header}%
       {\bodyfont  #1}
@@ -108,7 +109,6 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \end{tikzpicture}
   \vspace{1.6cm}
 }
-
 
 %%%%%%%%%%%%%
 % Structure %
@@ -152,13 +152,13 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 }{%
   \end{tabular*}
 }
-\renewcommand{\bfseries}{\headingfont\color{headercolor}}
+
 \newcommand{\entry}[3]{%
   \parbox[t][][t]{15cm}{%
-    \textbf{#1}%
+    \textbf{\textcolor{headercolor}{#1}}%
     \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #2}\\
-    #3\vspace{2\parsep}%
+    {\footnotesize\addfontfeature{Color=pink} #2}\\
+    {#3}\vspace{2\parsep}%
   }\\}
 
 
@@ -172,9 +172,9 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
-    \par\vspace{\baselineskip}{\large\headingfont\color{headercolor} ##1}\vspace{0.1cm}
+    \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}\vspace{0.1cm}
   }
-  \begin{textblock}{4.8}(0.5, 3.8)
+  \begin{textblock}{4.8}(0.5, 3.5)
   \begin{flushright}
   \obeycr
 }{%
